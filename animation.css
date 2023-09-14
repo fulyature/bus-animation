@@ -34,3 +34,8 @@ body {
   left: 25%;
   animation: hop-up 3s linear infinite;
 }
+@keyframes move {
+  100% {
+    transform: translate(-2000px);
+  }
+}
