@@ -50,7 +50,7 @@ body {
     transform: translateY(-20px);
   }
   30% {
-    transform: translateY(-1px);
+    transform: translateY(0px);
   }
 
   80% {
