@@ -39,3 +39,27 @@ body {
     transform: translate(-2000px);
   }
 }
+@keyframes hop-up {
+  0% {
+    transform: translateY(-15px) rotate(-15deg);
+  }
+  10% {
+    transform: translateY(-18px);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  30% {
+    transform: translateY(-1px);
+  }
+
+  80% {
+    transform: translateY(-5px);
+  }
+  90% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
